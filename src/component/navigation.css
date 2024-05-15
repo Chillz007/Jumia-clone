@@ -1,0 +1,40 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #633185;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, sans-serif;
+}
+
+.Banner {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.BannerTwo {
+  background-color: #f1f1f2;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.BannerThree {
+  background-color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* body {
+
+}
+
+.navbar {
+  padding: 15px;
+  background-color: #633185;
+} */
