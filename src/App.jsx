@@ -5,9 +5,11 @@ import star from "./assets/logos/starr.png";
 import Logo from "./component/Logo";
 import SearchBar from "./component/SearchBar";
 import OtherBar from "./component/OtherBar";
-import Background from "./component/Background";
 import logo from "./assets/logos/jumia-logo.png";
 import Main from "./component/Main";
+import AllPictures from "./component/AllPictures";
+import ClearanceSales from "./component/ClearanceSales";
+import Hero from "./component/Hero";
 
 export default function App() {
   return (
@@ -48,8 +50,11 @@ export default function App() {
           <OtherBar />
         </div>
       </NavigationBar>
+      
+      <Hero/>
+      <ClearanceSales />
 
-      {/* <Main></Main> */}
+      <Main />
     </div>
   );
 }

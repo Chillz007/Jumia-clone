@@ -1,7 +1,17 @@
-import React from 'react'
+import React from "react";
 
-export default function SideBar() {
+export default function SideBar({ iconData }) {
   return (
-    <div>SideBar</div>
-  )
+    <li
+      style={{
+        display: "flex",
+        alignItems: "center",
+        marginBottom: "10px",
+        gap: "10px",
+      }}
+    >
+      {iconData.icon}
+      {iconData.iconText}
+    </li>
+  );
 }
