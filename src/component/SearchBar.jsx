@@ -18,7 +18,9 @@ export default function SearchBar() {
         }}
       >
         <div className="search-container">
-          <IoSearchSharp />
+          <div>
+            <IoSearchSharp />
+          </div>
           <input
             className="search-input"
             type="text"
@@ -52,7 +54,7 @@ export default function SearchBar() {
           Help
           <IoIosArrowDown />
         </a>
-        <a href="" style={{ display: "flex",gap: "2px" }}>
+        <a href="" style={{ display: "flex", gap: "2px" }}>
           <MdOutlineShoppingCart />
           <span>Cart</span>
         </a>

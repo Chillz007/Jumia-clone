@@ -7,10 +7,12 @@ export default function AllPictures({ pics }) {
         display: "flex",
         flexWrap: "wrap",
         alignItems: "center",
-        width: "80%",
+        width: "89%",
         margin: "auto",
         gap: "5px",
         background: "white",
+        borderBottomRightRadius: "5px",
+        borderBottomLeftRadius: "5px",
       }}
     >
       {pics.data.map((item) => {

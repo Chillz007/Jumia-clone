@@ -1,4 +1,5 @@
 import React from "react";
+import { Bars } from "./OtherBar";
 import { VscAccount } from "react-icons/vsc";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -11,7 +12,7 @@ export default function OtherBarItems({ items }) {
         <div className="Bar-icon">
           <VscAccount />
           <AiOutlineQuestionCircle />
-          <span>{items.name}</span>
+          <span>{/* {items.name} */}</span>
           <RiArrowDropDownLine />
         </div>
       </div>

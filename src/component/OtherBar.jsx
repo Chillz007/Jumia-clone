@@ -5,11 +5,11 @@ import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-// const Bars = [
-//   { BarIcon: VscAccount , name: "Account" },
-//   { BarIcon: AiOutlineQuestionCircle , name: "Help" },
-//   { BarIcon:  MdOutlineShoppingCart , name: "Cart" },
-// ];
+export const Bars = [
+  { BarIcon: <VscAccount />, name: "" },
+  { BarIcon: AiOutlineQuestionCircle, name: "Help" },
+  { BarIcon: MdOutlineShoppingCart, name: "Cart" },
+];
 export default function OtherBar() {
   return (
     <div

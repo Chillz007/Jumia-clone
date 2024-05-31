@@ -7,16 +7,26 @@ export default function ClearanceSales() {
     <div
       style={{
         display: "flex",
-        width: "80%",
+        width: "100%",
         margin: "0 auto",
-        // gap: "5px",
       }}
     >
-      {clearanceSales.map((sales) => (
-        <div style={{ width: "350%" }} key={sales.id}>
-          <Sales sales={sales} />
-        </div>
-      ))}
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          alignItems: "center",
+          width: "89%",
+          margin: "0 auto",
+          background: "white",
+          padding: "5px",
+          borderRadius: "5px",
+        }}
+      >
+        {clearanceSales.map((sales) => (
+          <Sales sales={sales} key={sales.id} />
+        ))}
+      </div>
     </div>
   );
 }

@@ -6,8 +6,9 @@ export default function SideBar({ iconData }) {
       style={{
         display: "flex",
         alignItems: "center",
-        marginBottom: "10px",
-        gap: "10px",
+
+        marginBottom: "12px",
+        gap: "5px",
       }}
     >
       {iconData.icon}

@@ -6,12 +6,12 @@ export default function Main() {
   return (
     <div style={{ textAlign: "center" }}>
       {allPictures.map((category) => (
-        <div key={category.id}>
+        <div style={{ margin: "5px 0" }} key={category.id}>
           <h2
             style={{
               background: "#FFBA00",
               padding: "10px 0",
-              width: "80%",
+              width: "89%",
               margin: "0 auto",
             }}
           >

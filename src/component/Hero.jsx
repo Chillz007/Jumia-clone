@@ -12,18 +12,20 @@ export default function Hero() {
           display: "flex",
           gap: "5px",
           width: "",
-          margin: "5px",
+          margin: "20px",
           borderRadius: "5px",
+          paddingRight: "50px",
+          paddingLeft: "50px",
+          justifyContent: "space-evenly",
         }}
       >
-        {" "}
         <SideBarList />
-        <div style={{ gap: "5px", width: "60%" }}>
+        <div style={{ gap: "px", width: "70%" }}>
           <img style={{ width: "100%" }} src={hero} alt="Fashion-week-BG" />
         </div>
-        <div style={{ margin: "5px" }}>
+        <div style={{ margin: "0 auto" }}>
           <RightAsideList />
-          <div>
+          <div style={{ marginLeft: "5px", marginTop: "13px", width: "95%" }}>
             <img src={earn} alt="shop-earn" />
           </div>
         </div>

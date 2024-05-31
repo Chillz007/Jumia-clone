@@ -10,10 +10,11 @@ import Main from "./component/Main";
 import AllPictures from "./component/AllPictures";
 import ClearanceSales from "./component/ClearanceSales";
 import Hero from "./component/Hero";
+// import Footer from "./component/Footer";
 
 export default function App() {
   return (
-    <div>
+    <div style={{ margin: "px 0" }}>
       <NavigationBar type="Banner">
         <img src={banner} alt="" />
       </NavigationBar>
@@ -28,9 +29,19 @@ export default function App() {
             // height: "10px",
           }}
         >
-          <a>
-            <img width="10%" src={star} alt="" />
-            <span style={{ fontSize: "small" }}>Sell on Jumia</span>
+          <a style={{ display: "flex", gap: "px" }}>
+            <div
+              style={{
+                alignItems: "center",
+                display: "flex",
+                margin: "0",
+              }}
+            >
+              <img width="40%" src={star} alt="" />
+            </div>
+            <span style={{ fontSize: "small", marginLeft: "0" }}>
+              Sell on Jumia
+            </span>
           </a>
           <Logo imageSrc={logo} alt="jumia-logo" width="60px" />
         </div>
@@ -50,11 +61,12 @@ export default function App() {
           <OtherBar />
         </div>
       </NavigationBar>
-      
-      <Hero/>
+
+      <Hero />
       <ClearanceSales />
 
       <Main />
+      {/* <Footer /> */}
     </div>
   );
 }

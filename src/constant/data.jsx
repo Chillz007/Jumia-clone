@@ -102,8 +102,8 @@ import { GiWeightLiftingUp } from "react-icons/gi";
 import { CiCircleMore } from "react-icons/ci";
 
 export const asideData = [
-  { icon: <LuApple />, iconText: "superMarket" },
-  { icon: <CgHome />, iconText: "health & beauty" },
+  { id: 1, icon: <LuApple />, iconText: "superMarket" },
+  { id: 2, icon: <CgHome />, iconText: "health & beauty" },
   { icon: <PiCookingPot />, iconText: "Home & Office" },
   { icon: <IoIosPhonePortrait />, iconText: "Appliencies" },
   { icon: <CiMonitor />, iconText: "phones & tablet" },
@@ -131,7 +131,75 @@ export const clearanceSales = [
 ];
 
 export const rightSide = [
-  { id: 1, pic: phone, text: "CALL TO ORDER" },
+  { id: 1, pic: phone, text: "CALL TO ORDER 0700600000" },
   { id: 2, pic: shop, text: "Sell on Jumia" },
   { id: 3, pic: deals, text: "Best Deals" },
+];
+
+export const footerData = [
+  {
+    heading: "NEED HELP?",
+    list: [
+      { text: "Chat with us" },
+      { text: "Help Cente" },
+      { text: "Contact Us" },
+    ],
+    headingTwo: "USEFUL LINKS",
+    lists: [
+      { text: "Service Center" },
+      { text: "How to shop on Jumia?" },
+      { text: "Delivery options and timelines" },
+      { text: "How to return a product on Jumia?" },
+      { text: "Corporate and bulk purchases" },
+      { text: "Report a Product" },
+      { text: "Dispute Resolution Policy" },
+      { text: "Returns & Refund Timeline" },
+      { text: "Return Policy" },
+    ],
+  },
+  {
+    heading: "ABOUT JUMIA",
+    list: [
+      { text: "About us" },
+      { text: "Jumia careers" },
+      { text: "Jumia Express" },
+      { text: "Terms and Conditions" },
+      { text: "Privacy Notice" },
+      { text: "Jumia Store Credit Terms & Conditions" },
+      { text: "Jumia Payment Information Guidelines" },
+      { text: "Cookie Notice" },
+      { text: "Jumia Global" },
+      { text: "Official Stores" },
+      { text: "Official Stores" },
+      { text: "Tech Week 2024" },
+    ],
+  },
+  {
+    heading: "MAKE MONEY WITH JUMIA",
+    list: [
+      { text: "Sell on Jumia" },
+      { text: "Vendor hub" },
+      { text: "Become a Sales Consultant" },
+      { text: "Become a Logistics Service Partner" },
+      { text: "Join the Jumia DA Academy" },
+      { text: "Join the Jumia KOL Program" },
+    ],
+  },
+  {
+    headingThree: "JUMIA INTERNATONAL",
+    listTwo: [
+      { text: "Algeria" },
+      { text: "Egypt" },
+      { text: "Ghana" },
+      { text: "Ivory Coast" },
+      { text: "Kenya" },
+    ],
+    listThree: [
+      { text: "Morocco" },
+      { text: "Senegal" },
+      { text: "Tunisia" },
+      { text: "Uganda" },
+      { text: "Zando" },
+    ],
+  },
 ];
